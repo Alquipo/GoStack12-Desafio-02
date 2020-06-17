@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const { uuid, isUuid } = require("uuidv4");
+const { uuid } = require("uuidv4");
 
 const app = express();
 
@@ -13,8 +13,10 @@ const repositories = [];
 function validateId(request, response, next) {
   const { id } = request.params
 
-  if (!isUuid(id)) {
-    return response.status(400).json({ error: 'Invalid Repository ID' })
+  const existsID = repositories.find(repo => repo.id === id)
+
+  if (!existsID) {
+    return response.status(400).json({ error: 'Repository not found' })
   }
 
   return next()
@@ -42,17 +44,11 @@ app.put("/repositories/:id", (request, response) => {
   const { id } = request.params
   const { title, url, techs } = request.body
 
-  const repositoryIndex = repositories.findIndex(repository => repository.id === id)
+  const repository = repositories.find(repo => repo.id === id)
 
-  const repository = {
-    id,
-    title,
-    url,
-    techs,
-    likes: repositories[repositoryIndex].likes
-  }
-
-  repositories[repositoryIndex] = repository
+  repository.title = title
+  repository.url = url
+  repository.techs = techs
 
   return response.json(repository)
 
