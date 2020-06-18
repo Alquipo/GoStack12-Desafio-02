@@ -2,16 +2,16 @@
 
 <p align="center">
     
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/GoStack12-desafio-01">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Alquipo/GoStack12-desafio-02">
 
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/GoStack12-desafio-01">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/Alquipo/GoStack12-desafio-02">
 
 <a href="https://www.linkedin.com/in/alquiponeto/">
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
 </a>
 
 <a href="https://github.com/Alquipo/GoStack12-desafio-01/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/GoStack12-desafio-01?color=blue">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/GoStack12-desafio-02?color=blue">
 </a>
 
 <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
@@ -23,12 +23,12 @@
   </a>
 </p>
 <h2 align="center">
-  Desafio 01: Conceitos do Node.js
+  Desafio 02: Conceitos do Node.js
 </h2>
 
 ## 🚀 Sobre o desafio
 
-O primeiro desafio foi desenvolver uma `API` fake onde os dados ficam salvos em um array, enquanto o servidor está sendo executado, foi criado algo muito interessante que server como base para uma api utilizando banco de dados....
+Segundo desafio foi desenvolver uma `API` fake onde os dados ficam salvos em um array, enquanto o servidor está sendo executado, foi criado algo muito interessante que serve como base para uma api utilizando banco de dados....
 
 ## 🔨 Tecnologias:
 
@@ -45,10 +45,10 @@ Para clonar e executar este aplicativo, você precisará de [Git](https://git-sc
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/Alquipo/GoStack12-desafio-01
+$ git clone https://github.com/Alquipo/GoStack12-desafio-02
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd GoStack12-desafio-01
+$ cd GoStack12-desafio-02
 ```
 
 ### 🎲 Rodando a API
