@@ -10,7 +10,7 @@
     <img alt="Made by Alquipo" src="https://img.shields.io/badge/made%20by-AlquipoNeto-blue">
 </a>
 
-<a href="https://github.com/Alquipo/GoStack12-desafio-01/commits/master">
+<a href="https://github.com/Alquipo/GoStack12-desafio-02/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alquipo/GoStack12-desafio-02?color=blue">
 </a>
 
